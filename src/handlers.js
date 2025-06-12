@@ -30,7 +30,7 @@ const addNoteHandler = (request, h) => {
     .response(ResponseResult.succeed('Notes has been added succesfully', {
       noteId: id
     }))
-    .code(200);
+    .code(201);
 };
 
 const getNotesHandler = (request, h) => {
